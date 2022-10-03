@@ -21,7 +21,7 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #00204A;
+    background-color: #1f416d;
 }
 
 .right-section {
@@ -37,18 +37,18 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #ffffff;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #1B2631;
+    border: 8px solid #ffffff;
 }
 
 .name {
     color: #D6DBDF;
-    font-size: 28px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -76,15 +76,21 @@ body {
     display: flex;
     align-items: center;
     padding-top: 3rem;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
+    padding: 2rem 2rem;
+    padding-bottom: .4rem;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
+    padding: 2rem 2rem;
+    text-decoration: none;
 }
+
+.whatsapp {
+    text-decoration: none;
+    color: #d6dbdfaf;
+}
+
 
 .contact-info ul li,
 .references ul li {
@@ -94,9 +100,7 @@ body {
     color: #d6dbdfaf;
     letter-spacing: 1px;
     font-size: 18px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
+    text-decoration: none;
 }
 
 .contact-info ul li i,
@@ -108,6 +112,7 @@ body {
 
 .skills ul {
     padding-top: 1.5rem;
+    padding: 2rem 2rem;
 }
 .skills ul li p {
     padding: .4rem 0;
@@ -116,11 +121,6 @@ body {
     letter-spacing: 1px;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    flex-direction: row;
 }
 
 .referance-name {
