@@ -41,7 +41,9 @@ body {
 }
 
 .profile .profile-image {
-    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90%;
     border-radius: 50%;
     border: 8px solid #ffffff;
 }
@@ -86,6 +88,9 @@ body {
     text-decoration: none;
 }
 
+.devaria-ico {
+    background-image: url(img/logo-devaria-02.471a6e86.png);
+}
 .link-contact {
     text-decoration: none;
     color: #d6dbdfaf;
